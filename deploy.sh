@@ -18,9 +18,9 @@ docker build -t manmeetsingh87/factorial-project-worker-k8s:$GIT_SHA -f ./worker
 #docker push singhabhinav/factorial-project-worker-k8s:latest
 
 # Push sha tag images to docker hub
-docker push singhabhinav/factorial-project-react-client-k8s:$GIT_SHA
-docker push singhabhinav/factorial-project-express-server-k8s:$GIT_SHA
-docker push singhabhinav/factorial-project-worker-k8s:$GIT_SHA
+docker push manmeetsingh87/factorial-project-react-client-k8s:$GIT_SHA
+docker push manmeetsingh87/factorial-project-express-server-k8s:$GIT_SHA
+docker push manmeetsingh87/factorial-project-worker-k8s:$GIT_SHA
 
 ### Deploy
 
